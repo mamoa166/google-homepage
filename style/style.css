@@ -1,0 +1,151 @@
+/* Start Navbar */
+.nav {
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Times New Roman', Times;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 6px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav li {
+    float:right;
+}
+
+.nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.nav li a:hover {
+    background-color: white;
+}
+
+.logg-inn {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 8px;
+    background: #1a73e8;  
+    border-radius: 4px;
+}
+/* End Navbar */
+
+/* Start Foogle Bilde */
+.background-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+/* End Foogle Bilde */
+
+/* Start Searchbar */
+.form {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-left: 30%;
+    margin-right: 70%;
+    width: 40%;
+}
+
+.searchbar {
+    position: relative;
+    width: 600px;
+    height: 44px;
+    text-align: center;
+}
+/* End Searchbar*/
+
+.blank {
+    display: block;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: black;
+    flex-grow: 1;
+    width: 926px;
+    height: 70x;
+}
+
+.norge {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 16px 20px;
+    margin: 0%;
+}
+
+/* Start Bottom-Navbar */
+.bottom-nav {
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Times New Roman', Times;
+    background-color: #f2f2f2;
+}
+
+.bottom-nav ul {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.bottom-nav li {
+    float:right;
+}
+
+.bottom-nav li a {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 20px;
+    justify-content: space-between;
+}
+
+.bottom-nav li a:hover {
+    background-color: #f2f2f2;
+}
+
+.botto-nav-list-right {
+    text-align: center;
+    float: right;
+}
+
+.botto-nav-list-center {
+    float: center; 
+    text-align: center; 
+}
+
+.botto-nav-list-left {
+    text-align: center;
+    float: left;
+}
+/* End Bottom-Navbar */
